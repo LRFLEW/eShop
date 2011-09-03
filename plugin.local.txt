@@ -1,0 +1,24 @@
+# Permissions = true
+
+eM = &bThat's not an item, silly
+eMD = &bThat's not a data, silly
+eA = &bThat's not a number, silly
+eNS = &b&g is not sellable to the store
+eNB = &b&g is not purchasable from the store
+
+BS = &b&g is purchasable for &g&nAnd sellable for &g
+bS = &b&g is not purchasable, but is sellable for &g
+Bs = &b&g is purchasable for &g, but isn't sellable
+bs = &b&g is not purchasable or sellable through the store
+
+tN = &bNo transaction occurred
+tA = &byou don't have any &g to sell
+tM = &bYou don't have enough money to buy any &g
+tR = &bYou don't have enough room in your inventory :P
+
+S = &bSold &g for &g&nYou now have &g
+B = &bbought &g for &g&nYou now have &g
+
+pB = &bYou don't have permission to buy here
+pS = &bYou don't have permission to sell here
+pC = &bYou don't have permission to use eShop

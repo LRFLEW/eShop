@@ -1,0 +1,34 @@
+name: eShop
+main: com.LRFLEW.bukkit.eShop.EShop
+version: 1.0
+website: http://lrflew.ismywebsite.com/
+author: LRFLEW
+depend: [Register]
+softdepend: [Essentials]
+description: >
+             a command based iConomy shop
+commands:
+  shop:
+    description: eShop command
+    usage: |
+           /<command> buy [Item Id|Name[:DATA]] [Ammount]
+           /<command> sell [Item Id|Name[:DATA]] [Ammount]
+           /<command> check [Item Id|Name[:DATA]]
+
+permissions:
+  eShop:
+    description: give access to entire shop
+    default: true
+    children:
+      eShop.buy: true
+      eShop.sell: true
+  eShop.buy:
+    description: give access to /shop buy
+    children:
+      eShop.check: true
+  eShop.sell:
+    description: give access to /shop sell
+    children:
+      eShop.check: true
+  eShop.check:
+    description: give access to /shop check
